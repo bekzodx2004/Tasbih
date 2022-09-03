@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face {
+  font-family: orbitron;
+  src: url(fonts/orbitron/Orbitron-VariableFont_wght.ttf);
+}
 #body {
     overflow: hidden;
   max-width: 291px;
@@ -20,6 +23,7 @@
   text-align: center;
   font-family: cursive;
   margin-bottom: 10px;
+
 }
 #tepa {
   overflow: hidden;
@@ -34,12 +38,19 @@
   z-index: 1;
   border-radius: 25px;
   padding-bottom: 20px;
+  background: #008000;
 }
 #nechta {
   margin-left: 20px;
-  font-size: 40px;
+  margin-right: 20px;
+  padding-left: 10px;
+  font-size:30px;
+  padding: 10px;
   margin-top: 35px;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: orbitron;
+  color: rgb(89, 82, 82);
+  background: rgba(255, 255, 255, 0.718);
+  border-radius: 5px;
 }
 
 #past {
@@ -55,7 +66,7 @@
   border-top: none;
   margin: auto;
   padding-bottom: 20px;
-  background-color: #ffffff;
+  background-color: #008000;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -68,8 +79,8 @@
   position: absolute;
   left: 65px;
   bottom: 40px;
-  background: rgba(5, 233, 184, 0.493);
-  box-shadow: inset 0 0 15px rgb(6, 117, 221);
+  background: rgb(247, 247, 247);
+  box-shadow: inset 0 0 15px rgb(221, 142, 6);
 }
 #tozala {
   width: 40px;
